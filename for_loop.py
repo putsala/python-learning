@@ -1,3 +1,4 @@
+
 def sum_of_n(n):
     """
     Sum of all numbers until n.
