@@ -54,12 +54,14 @@ def merge_lists(l1, l2):
     return []
 
 
-if __name__ == '__main__':
+def tests():
     # Tests for sum_of_n()
     assert sum_of_n(1) == 1
     assert sum_of_n(-5) == 0
     assert sum_of_n(5) == 15
     print "All tests for sum_of_n() passed."
+
+    return
 
     # Tests for sum_of_list()
     assert sum_of_list([1, 5, 8]) == 14
@@ -92,3 +94,7 @@ if __name__ == '__main__':
     assert merge_lists([1, 3, 5], [4, 8]) == [1, 3, 4, 5, 8]
     # TODO: Write more test cases
     print "All tests for merge_lists() passed"
+
+
+if __name__ == "__main__":
+    tests()
